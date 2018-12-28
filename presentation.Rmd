@@ -1,0 +1,29 @@
+---
+title: "Week 4 Assignment"
+author: "HK Kim"
+date: "December 27, 2018"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+### Developing Data Products: Shiny Application and Reproducible Pitch
+
+## Overview
+The Shiny Application is built as a part of the Developing Data Products course week 4 assignment. The ui.R and server.R files areavailable at github repo:
+
+
+## Formula for BMI
+- weight (kg) / [height (cm)/100]2
+- weight (lb) / [height (in)]2 x 703
+
+
+## BMI Calculator
+The Shiny Application calculates BMI (Body Mass Index) when weight and height are provided by the user. There are two measurement unit options. A user can provide either in (kilograms and centimeters) or in (pounds and inches). The application also features a table with a brief description of the standard weight status categories associated with BMI ranges for adults.
+
+
+## Shiny Application
+- Two inputs, weight and height, and an action button available in the sidebar panel.
+- In the main panel, the user will see his or her BMI calculated based on inputs, as well as a table for weight status reference.
